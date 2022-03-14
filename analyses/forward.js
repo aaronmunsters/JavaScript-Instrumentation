@@ -84,4 +84,7 @@
         return left ?? right;
     }
   },
+  primitive: ($value) => {
+    return $value;
+  },
 });

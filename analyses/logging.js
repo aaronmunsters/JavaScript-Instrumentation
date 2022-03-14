@@ -91,4 +91,8 @@
         return $left ?? $right;
     }
   },
+  primitive: ($value) => {
+    console.log(`Primitive: ${$value}`);
+    return $value;
+  },  
 });
